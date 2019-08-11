@@ -35,9 +35,18 @@
         <activity android:name="org.tensorflow.demo.DetectorActivity"
                   android:screenOrientation="portrait"
                   android:label="Your Eyes">
-            <intent-filter>
+           <!-- <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.LAUNCHER" />
+                <category android:name="android.intent.category.LEANBACK_LAUNCHER" />
+            </intent-filter>-->
+        </activity>
+        <activity android:name=".StartActivity"
+            android:theme="@style/StartTheme"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
                 <category android:name="android.intent.category.LEANBACK_LAUNCHER" />
             </intent-filter>
         </activity>
