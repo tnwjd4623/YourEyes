@@ -195,4 +195,5 @@ dependencies {
     if (nativeBuildSystem == 'cmake' || nativeBuildSystem == 'none') {
         implementation 'org.tensorflow:tensorflow-android:+'
     }
+    implementation 'com.rmtheis:tess-two:9.0.0'
 }
